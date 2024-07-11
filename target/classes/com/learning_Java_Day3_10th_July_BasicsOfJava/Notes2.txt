@@ -1,0 +1,25 @@
+How to learn syntax of java
+
+1. reserved keywords in java - 50
+
+abstract - this is a reserved keyword
+every reserved keyword is in lower case
+
+Warning: Do not create a Class with the same name as a reserved keyword
+in Eclipse all the reserved keywords will be in dark red color - maroon color
+
+2. main method- how to connect with main method from different classes
+
+3. Access modifiers in java
+
+public
+ - if an entity is declared public - every class in the project can access this entity
+default
+- The code is only accessible in the same package
+protected
+-The code is accessible in the same package and subclasses(Child Class)
+ private
+- if an entity is declared private - only in the same class it is accessible
+
+4. Why learn Maven and create Maven Project ?
+What is Maven - Maven is a build and compile tool

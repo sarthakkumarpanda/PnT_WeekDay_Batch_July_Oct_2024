@@ -1,0 +1,25 @@
+Eclipse - Outline Structure
+
+Window > Perspective > Close All Perspectives
+Window > Perspective > Open Perspective > Other > Java
+
+close the TaskList window
+close the Outline window
+minimize the window in the bottom
+------------------------------------------------------------
+
+Ctrl+S - save your code
+Command + S - save your code
+-------------------------------------------------------------
+1. Create a Java Project - nomenclature is very important
+
+com.NameOfTheProject.environment.ModuleSpecific_DateTimeStamp_version
+JRE - Java Runtime Environment
+the road in which you drive your car
+JRE is the road in which you drive your java code
+src is known as source folder
+java code is known as source code
+
+2. within the java project we will create package(s) under src folder
+3. within a package we will create Class(s)
+4. java code is written inside the Class

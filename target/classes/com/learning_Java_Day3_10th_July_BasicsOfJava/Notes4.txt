@@ -1,0 +1,9 @@
+Maven Project
+
+there are lot of other dependencies
+
+Automation
+
+Selenium - is a library
+TestNG - is also a library which will help you with test execution
+Apache POI - is a separate library

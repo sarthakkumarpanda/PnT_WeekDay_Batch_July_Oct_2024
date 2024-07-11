@@ -1,0 +1,12 @@
+maven-archetype-quickstart
+
+src/main/java - is a source folder
+java utilitarian code
+java code
+
+
+src/test/java - is a source folder
+Automation Code
+
+
+
