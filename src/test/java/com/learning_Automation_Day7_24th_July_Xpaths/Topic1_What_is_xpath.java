@@ -1,6 +1,5 @@
 package com.learning_Automation_Day7_24th_July_Xpaths;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
