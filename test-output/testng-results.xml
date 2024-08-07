@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-06T21:33:11 EDT" name="Default suite" finished-at="2024-08-06T21:33:25 EDT" duration-ms="14478">
+    <groups>
+    </groups>
+    <test started-at="2024-08-06T21:33:11 EDT" name="Default test" finished-at="2024-08-06T21:33:25 EDT" duration-ms="14478">
+      <class name="com.learning_Automation_Day10_6th_Aug_TestNG_BASICS.Topic10_Using_Assert_LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.learning_Automation_Day10_6th_Aug_TestNG_BASICS.Topic10_Using_Assert_LoginTest@55183b20]" started-at="2024-08-06T21:33:11 EDT" name="setup" finished-at="2024-08-06T21:33:17 EDT" duration-ms="6195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithValidCredentials()[pri:1, instance:com.learning_Automation_Day10_6th_Aug_TestNG_BASICS.Topic10_Using_Assert_LoginTest@55183b20]" started-at="2024-08-06T21:33:17 EDT" name="verifyLoginWithValidCredentials" finished-at="2024-08-06T21:33:19 EDT" duration-ms="1820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.learning_Automation_Day10_6th_Aug_TestNG_BASICS.Topic10_Using_Assert_LoginTest@55183b20]" started-at="2024-08-06T21:33:19 EDT" name="tearDown" finished-at="2024-08-06T21:33:19 EDT" duration-ms="321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.learning_Automation_Day10_6th_Aug_TestNG_BASICS.Topic10_Using_Assert_LoginTest@55183b20]" started-at="2024-08-06T21:33:19 EDT" name="setup" finished-at="2024-08-06T21:33:24 EDT" duration-ms="4745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithValidEmailInvalidPassword()[pri:2, instance:com.learning_Automation_Day10_6th_Aug_TestNG_BASICS.Topic10_Using_Assert_LoginTest@55183b20]" started-at="2024-08-06T21:33:24 EDT" name="verifyLoginWithValidEmailInvalidPassword" finished-at="2024-08-06T21:33:25 EDT" duration-ms="1079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidEmailInvalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.learning_Automation_Day10_6th_Aug_TestNG_BASICS.Topic10_Using_Assert_LoginTest@55183b20]" started-at="2024-08-06T21:33:25 EDT" name="tearDown" finished-at="2024-08-06T21:33:25 EDT" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.learning_Automation_Day10_6th_Aug_TestNG_BASICS.Topic10_Using_Assert_LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
