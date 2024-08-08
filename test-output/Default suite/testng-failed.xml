@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.learning_Automation_Day10_6th_Aug_TestNG_BASICS.Topic9_Assert_in_TestNG">
+      <class name="com.learning_Automation_Day11_7th_Aug_TestNG.Topic4_SoftAssert_vs_HardAssert">
         <methods>
-          <include name="loginTest"/>
+          <include name="softAssertWay"/>
         </methods>
-      </class> <!-- com.learning_Automation_Day10_6th_Aug_TestNG_BASICS.Topic9_Assert_in_TestNG -->
+      </class> <!-- com.learning_Automation_Day11_7th_Aug_TestNG.Topic4_SoftAssert_vs_HardAssert -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
