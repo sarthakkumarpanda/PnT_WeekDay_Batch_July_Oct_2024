@@ -1,203 +1,133 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="12" passed="11" failed="1" skipped="0">
+<testng-results ignored="3" total="13" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-07T21:38:02 EDT" name="Suite" finished-at="2024-08-07T21:39:20 EDT" duration-ms="77708">
+  <suite started-at="2024-08-13T20:13:25 EDT" name="Default suite" finished-at="2024-08-13T20:14:30 EDT" duration-ms="65196">
     <groups>
     </groups>
-    <test started-at="2024-08-07T21:38:02 EDT" name="Test" finished-at="2024-08-07T21:39:20 EDT" duration-ms="77708">
-      <class name="com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.LoginTest@4550bb58]" started-at="2024-08-07T21:38:02 EDT" name="setup" finished-at="2024-08-07T21:38:08 EDT" duration-ms="6317" status="PASS">
+    <test started-at="2024-08-13T20:13:25 EDT" name="Default test" finished-at="2024-08-13T20:14:30 EDT" duration-ms="65196">
+      <class name="com.learning_Automation_Day12_13th_Aug_Relating_to_ReturnType_Methods_in_Automation.RegsiterTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.learning_Automation_Day12_13th_Aug_Relating_to_ReturnType_Methods_in_Automation.RegsiterTest@5f9b2141]" started-at="2024-08-13T20:13:25 EDT" name="setup" finished-at="2024-08-13T20:13:29 EDT" duration-ms="4501" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginWithValidCredentials()[pri:1, instance:com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.LoginTest@4550bb58]" started-at="2024-08-07T21:38:08 EDT" name="loginWithValidCredentials" finished-at="2024-08-07T21:38:10 EDT" duration-ms="1540" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginWithValidCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.LoginTest@4550bb58]" started-at="2024-08-07T21:38:10 EDT" name="tearDown" finished-at="2024-08-07T21:38:10 EDT" duration-ms="253" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.LoginTest@4550bb58]" started-at="2024-08-07T21:38:10 EDT" name="setup" finished-at="2024-08-07T21:38:15 EDT" duration-ms="4675" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="loginWithNoCredentials()[pri:2, instance:com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.LoginTest@4550bb58]" started-at="2024-08-07T21:38:15 EDT" name="loginWithNoCredentials" finished-at="2024-08-07T21:38:16 EDT" duration-ms="800" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginWithNoCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.LoginTest@4550bb58]" started-at="2024-08-07T21:38:16 EDT" name="tearDown" finished-at="2024-08-07T21:38:16 EDT" duration-ms="296" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.LoginTest@4550bb58]" started-at="2024-08-07T21:38:16 EDT" name="setup" finished-at="2024-08-07T21:38:21 EDT" duration-ms="5028" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="loginWithInvalidCredentials()[pri:3, instance:com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.LoginTest@4550bb58]" started-at="2024-08-07T21:38:21 EDT" name="loginWithInvalidCredentials" finished-at="2024-08-07T21:38:22 EDT" duration-ms="1207" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginWithInvalidCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.LoginTest@4550bb58]" started-at="2024-08-07T21:38:22 EDT" name="tearDown" finished-at="2024-08-07T21:38:22 EDT" duration-ms="227" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.LoginTest@4550bb58]" started-at="2024-08-07T21:38:22 EDT" name="setup" finished-at="2024-08-07T21:38:27 EDT" duration-ms="4779" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="oginWithValidEmailInvalidPassword()[pri:4, instance:com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.LoginTest@4550bb58]" started-at="2024-08-07T21:38:27 EDT" name="oginWithValidEmailInvalidPassword" finished-at="2024-08-07T21:38:29 EDT" duration-ms="1426" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- oginWithValidEmailInvalidPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.LoginTest@4550bb58]" started-at="2024-08-07T21:38:29 EDT" name="tearDown" finished-at="2024-08-07T21:38:29 EDT" duration-ms="341" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.LoginTest@4550bb58]" started-at="2024-08-07T21:38:29 EDT" name="setup" finished-at="2024-08-07T21:38:34 EDT" duration-ms="4762" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="oginWithInvalidEmailValidPassword()[pri:5, instance:com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.LoginTest@4550bb58]" started-at="2024-08-07T21:38:34 EDT" name="oginWithInvalidEmailValidPassword" finished-at="2024-08-07T21:38:35 EDT" duration-ms="945" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-expected [Warning: No match for E-Mail Address and/or Password.] but found [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-expected [Warning: No match for E-Mail Address and/or Password.] but found [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-at com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.LoginTest.oginWithInvalidEmailValidPassword(LoginTest.java:79)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- oginWithInvalidEmailValidPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.LoginTest@4550bb58]" started-at="2024-08-07T21:38:35 EDT" name="tearDown" finished-at="2024-08-07T21:38:35 EDT" duration-ms="306" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.LoginTest -->
-      <class name="com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.SearchProductTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.SearchProductTest@7c7b252e]" started-at="2024-08-07T21:39:03 EDT" name="setup" finished-at="2024-08-07T21:39:07 EDT" duration-ms="4304" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifySearchWithInvalidProduct()[pri:0, instance:com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.SearchProductTest@7c7b252e]" started-at="2024-08-07T21:39:07 EDT" name="verifySearchWithInvalidProduct" finished-at="2024-08-07T21:39:08 EDT" duration-ms="707" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySearchWithInvalidProduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.SearchProductTest@7c7b252e]" started-at="2024-08-07T21:39:08 EDT" name="tearDown" finished-at="2024-08-07T21:39:08 EDT" duration-ms="242" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.SearchProductTest@7c7b252e]" started-at="2024-08-07T21:39:08 EDT" name="setup" finished-at="2024-08-07T21:39:13 EDT" duration-ms="4717" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifySearchWithNoProduct()[pri:0, instance:com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.SearchProductTest@7c7b252e]" started-at="2024-08-07T21:39:13 EDT" name="verifySearchWithNoProduct" finished-at="2024-08-07T21:39:14 EDT" duration-ms="767" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySearchWithNoProduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.SearchProductTest@7c7b252e]" started-at="2024-08-07T21:39:14 EDT" name="tearDown" finished-at="2024-08-07T21:39:14 EDT" duration-ms="296" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.SearchProductTest@7c7b252e]" started-at="2024-08-07T21:39:14 EDT" name="setup" finished-at="2024-08-07T21:39:18 EDT" duration-ms="4294" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifySearchWithValidProduct()[pri:0, instance:com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.SearchProductTest@7c7b252e]" started-at="2024-08-07T21:39:18 EDT" name="verifySearchWithValidProduct" finished-at="2024-08-07T21:39:19 EDT" duration-ms="941" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySearchWithValidProduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.SearchProductTest@7c7b252e]" started-at="2024-08-07T21:39:19 EDT" name="tearDown" finished-at="2024-08-07T21:39:20 EDT" duration-ms="225" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.SearchProductTest -->
-      <class name="com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.RegisterTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.RegisterTest@7cc0cdad]" started-at="2024-08-07T21:38:35 EDT" name="setup" finished-at="2024-08-07T21:38:40 EDT" duration-ms="5519" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyRegisterWithMandatoryDetails()[pri:1, instance:com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.RegisterTest@7cc0cdad]" started-at="2024-08-07T21:38:40 EDT" name="verifyRegisterWithMandatoryDetails" finished-at="2024-08-07T21:38:42 EDT" duration-ms="2113" status="PASS">
+        <test-method signature="verifyRegisterWithMandatoryDetails()[pri:1, instance:com.learning_Automation_Day12_13th_Aug_Relating_to_ReturnType_Methods_in_Automation.RegsiterTest@5f9b2141]" started-at="2024-08-13T20:13:29 EDT" name="verifyRegisterWithMandatoryDetails" finished-at="2024-08-13T20:13:31 EDT" duration-ms="1534" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterWithMandatoryDetails -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.RegisterTest@7cc0cdad]" started-at="2024-08-07T21:38:42 EDT" name="tearDown" finished-at="2024-08-07T21:38:43 EDT" duration-ms="257" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.learning_Automation_Day12_13th_Aug_Relating_to_ReturnType_Methods_in_Automation.RegsiterTest@5f9b2141]" started-at="2024-08-13T20:13:31 EDT" name="tearDown" finished-at="2024-08-13T20:13:31 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.RegisterTest@7cc0cdad]" started-at="2024-08-07T21:38:43 EDT" name="setup" finished-at="2024-08-07T21:38:48 EDT" duration-ms="5042" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.learning_Automation_Day12_13th_Aug_Relating_to_ReturnType_Methods_in_Automation.RegsiterTest@5f9b2141]" started-at="2024-08-13T20:13:31 EDT" name="setup" finished-at="2024-08-13T20:13:35 EDT" duration-ms="4318" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyRegisterWithAllDetails()[pri:2, instance:com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.RegisterTest@7cc0cdad]" started-at="2024-08-07T21:38:48 EDT" name="verifyRegisterWithAllDetails" finished-at="2024-08-07T21:38:50 EDT" duration-ms="1740" status="PASS">
+        <test-method signature="verifyRegisterWithMandatoryDetails()[pri:1, instance:com.learning_Automation_Day12_13th_Aug_Relating_to_ReturnType_Methods_in_Automation.RegsiterTest@5f9b2141]" started-at="2024-08-13T20:13:35 EDT" name="verifyRegisterWithMandatoryDetails" finished-at="2024-08-13T20:13:37 EDT" duration-ms="1522" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyRegisterWithAllDetails -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.RegisterTest@7cc0cdad]" started-at="2024-08-07T21:38:50 EDT" name="tearDown" finished-at="2024-08-07T21:38:50 EDT" duration-ms="241" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.RegisterTest@7cc0cdad]" started-at="2024-08-07T21:38:50 EDT" name="setup" finished-at="2024-08-07T21:38:55 EDT" duration-ms="5157" status="PASS">
+        </test-method> <!-- verifyRegisterWithMandatoryDetails -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.learning_Automation_Day12_13th_Aug_Relating_to_ReturnType_Methods_in_Automation.RegsiterTest@5f9b2141]" started-at="2024-08-13T20:13:37 EDT" name="setup" finished-at="2024-08-13T20:13:42 EDT" duration-ms="5345" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyRegisterWithIncorrectConfirmPassword()[pri:3, instance:com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.RegisterTest@7cc0cdad]" started-at="2024-08-07T21:38:55 EDT" name="verifyRegisterWithIncorrectConfirmPassword" finished-at="2024-08-07T21:38:57 EDT" duration-ms="1850" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyRegisterWithIncorrectConfirmPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.RegisterTest@7cc0cdad]" started-at="2024-08-07T21:38:57 EDT" name="tearDown" finished-at="2024-08-07T21:38:57 EDT" duration-ms="277" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.learning_Automation_Day12_13th_Aug_Relating_to_ReturnType_Methods_in_Automation.RegsiterTest@5f9b2141]" started-at="2024-08-13T20:13:37 EDT" name="tearDown" finished-at="2024-08-13T20:13:37 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.RegisterTest@7cc0cdad]" started-at="2024-08-07T21:38:57 EDT" name="setup" finished-at="2024-08-07T21:39:02 EDT" duration-ms="4849" status="PASS">
+        <test-method signature="verifyRegisterWithMandatoryDetails()[pri:1, instance:com.learning_Automation_Day12_13th_Aug_Relating_to_ReturnType_Methods_in_Automation.RegsiterTest@5f9b2141]" started-at="2024-08-13T20:13:42 EDT" name="verifyRegisterWithMandatoryDetails" finished-at="2024-08-13T20:13:44 EDT" duration-ms="1408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterWithMandatoryDetails -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.learning_Automation_Day12_13th_Aug_Relating_to_ReturnType_Methods_in_Automation.RegsiterTest@5f9b2141]" started-at="2024-08-13T20:13:44 EDT" name="setup" finished-at="2024-08-13T20:13:48 EDT" duration-ms="4291" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyRegisterWithNoDetails()[pri:4, instance:com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.RegisterTest@7cc0cdad]" started-at="2024-08-07T21:39:02 EDT" name="verifyRegisterWithNoDetails" finished-at="2024-08-07T21:39:03 EDT" duration-ms="856" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyRegisterWithNoDetails -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.RegisterTest@7cc0cdad]" started-at="2024-08-07T21:39:03 EDT" name="tearDown" finished-at="2024-08-07T21:39:03 EDT" duration-ms="315" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.learning_Automation_Day12_13th_Aug_Relating_to_ReturnType_Methods_in_Automation.RegsiterTest@5f9b2141]" started-at="2024-08-13T20:13:44 EDT" name="tearDown" finished-at="2024-08-13T20:13:44 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.RegisterTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        <test-method signature="verifyRegisterWithMandatoryDetails()[pri:1, instance:com.learning_Automation_Day12_13th_Aug_Relating_to_ReturnType_Methods_in_Automation.RegsiterTest@5f9b2141]" started-at="2024-08-13T20:13:48 EDT" name="verifyRegisterWithMandatoryDetails" finished-at="2024-08-13T20:13:49 EDT" duration-ms="1452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterWithMandatoryDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.learning_Automation_Day12_13th_Aug_Relating_to_ReturnType_Methods_in_Automation.RegsiterTest@5f9b2141]" started-at="2024-08-13T20:13:49 EDT" name="tearDown" finished-at="2024-08-13T20:13:49 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.learning_Automation_Day12_13th_Aug_Relating_to_ReturnType_Methods_in_Automation.RegsiterTest@5f9b2141]" started-at="2024-08-13T20:13:49 EDT" name="setup" finished-at="2024-08-13T20:13:54 EDT" duration-ms="4411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyRegisterWithMandatoryDetails()[pri:1, instance:com.learning_Automation_Day12_13th_Aug_Relating_to_ReturnType_Methods_in_Automation.RegsiterTest@5f9b2141]" started-at="2024-08-13T20:13:54 EDT" name="verifyRegisterWithMandatoryDetails" finished-at="2024-08-13T20:13:55 EDT" duration-ms="1534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterWithMandatoryDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.learning_Automation_Day12_13th_Aug_Relating_to_ReturnType_Methods_in_Automation.RegsiterTest@5f9b2141]" started-at="2024-08-13T20:13:55 EDT" name="tearDown" finished-at="2024-08-13T20:13:55 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.learning_Automation_Day12_13th_Aug_Relating_to_ReturnType_Methods_in_Automation.RegsiterTest@5f9b2141]" started-at="2024-08-13T20:13:55 EDT" name="setup" finished-at="2024-08-13T20:14:00 EDT" duration-ms="4583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyRegisterWithMandatoryDetails()[pri:1, instance:com.learning_Automation_Day12_13th_Aug_Relating_to_ReturnType_Methods_in_Automation.RegsiterTest@5f9b2141]" started-at="2024-08-13T20:14:00 EDT" name="verifyRegisterWithMandatoryDetails" finished-at="2024-08-13T20:14:01 EDT" duration-ms="1585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterWithMandatoryDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.learning_Automation_Day12_13th_Aug_Relating_to_ReturnType_Methods_in_Automation.RegsiterTest@5f9b2141]" started-at="2024-08-13T20:14:01 EDT" name="tearDown" finished-at="2024-08-13T20:14:01 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.learning_Automation_Day12_13th_Aug_Relating_to_ReturnType_Methods_in_Automation.RegsiterTest@5f9b2141]" started-at="2024-08-13T20:14:01 EDT" name="setup" finished-at="2024-08-13T20:14:07 EDT" duration-ms="5479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyRegisterWithMandatoryDetails()[pri:1, instance:com.learning_Automation_Day12_13th_Aug_Relating_to_ReturnType_Methods_in_Automation.RegsiterTest@5f9b2141]" started-at="2024-08-13T20:14:07 EDT" name="verifyRegisterWithMandatoryDetails" finished-at="2024-08-13T20:14:08 EDT" duration-ms="1533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterWithMandatoryDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.learning_Automation_Day12_13th_Aug_Relating_to_ReturnType_Methods_in_Automation.RegsiterTest@5f9b2141]" started-at="2024-08-13T20:14:08 EDT" name="tearDown" finished-at="2024-08-13T20:14:08 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.learning_Automation_Day12_13th_Aug_Relating_to_ReturnType_Methods_in_Automation.RegsiterTest@5f9b2141]" started-at="2024-08-13T20:14:08 EDT" name="setup" finished-at="2024-08-13T20:14:13 EDT" duration-ms="4907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyRegisterWithMandatoryDetails()[pri:1, instance:com.learning_Automation_Day12_13th_Aug_Relating_to_ReturnType_Methods_in_Automation.RegsiterTest@5f9b2141]" started-at="2024-08-13T20:14:13 EDT" name="verifyRegisterWithMandatoryDetails" finished-at="2024-08-13T20:14:15 EDT" duration-ms="1790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterWithMandatoryDetails -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.learning_Automation_Day12_13th_Aug_Relating_to_ReturnType_Methods_in_Automation.RegsiterTest@5f9b2141]" started-at="2024-08-13T20:14:15 EDT" name="setup" finished-at="2024-08-13T20:14:21 EDT" duration-ms="5660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.learning_Automation_Day12_13th_Aug_Relating_to_ReturnType_Methods_in_Automation.RegsiterTest@5f9b2141]" started-at="2024-08-13T20:14:15 EDT" name="tearDown" finished-at="2024-08-13T20:14:15 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="verifyRegisterWithMandatoryDetails()[pri:1, instance:com.learning_Automation_Day12_13th_Aug_Relating_to_ReturnType_Methods_in_Automation.RegsiterTest@5f9b2141]" started-at="2024-08-13T20:14:21 EDT" name="verifyRegisterWithMandatoryDetails" finished-at="2024-08-13T20:14:23 EDT" duration-ms="1796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterWithMandatoryDetails -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.learning_Automation_Day12_13th_Aug_Relating_to_ReturnType_Methods_in_Automation.RegsiterTest@5f9b2141]" started-at="2024-08-13T20:14:23 EDT" name="setup" finished-at="2024-08-13T20:14:28 EDT" duration-ms="5599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.learning_Automation_Day12_13th_Aug_Relating_to_ReturnType_Methods_in_Automation.RegsiterTest@5f9b2141]" started-at="2024-08-13T20:14:23 EDT" name="tearDown" finished-at="2024-08-13T20:14:23 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="verifyRegisterWithMandatoryDetails()[pri:1, instance:com.learning_Automation_Day12_13th_Aug_Relating_to_ReturnType_Methods_in_Automation.RegsiterTest@5f9b2141]" started-at="2024-08-13T20:14:28 EDT" name="verifyRegisterWithMandatoryDetails" finished-at="2024-08-13T20:14:30 EDT" duration-ms="1916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterWithMandatoryDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.learning_Automation_Day12_13th_Aug_Relating_to_ReturnType_Methods_in_Automation.RegsiterTest@5f9b2141]" started-at="2024-08-13T20:14:30 EDT" name="tearDown" finished-at="2024-08-13T20:14:30 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.learning_Automation_Day12_13th_Aug_Relating_to_ReturnType_Methods_in_Automation.RegsiterTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
