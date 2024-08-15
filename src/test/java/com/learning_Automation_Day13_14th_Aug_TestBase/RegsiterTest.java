@@ -1,28 +1,30 @@
-package com.learning_Automation_Day12_13th_Aug_Relating_to_ReturnType_Methods_in_Automation;
+package com.learning_Automation_Day13_14th_Aug_TestBase;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class RegsiterTest {
+import com.learning_Automation_Day12_13th_Aug_Relating_to_ReturnType_Methods_in_Automation.Utils;
+
+public class RegsiterTest extends TestBase{
+
+	public RegsiterTest() throws Exception {
+		super();
+	}
 
 	public WebDriver driver;
 
 	@BeforeMethod
 	public void setup() {
-		driver = new ChromeDriver();
-		driver.manage().window().maximize();
-		driver.manage().deleteAllCookies();
-		driver.get("https://tutorialsninja.com/demo");
+		driver = initializeBrowserAndOpenApplication("Firefox");
 		driver.findElement(By.linkText("My Account")).click();
 		driver.findElement(By.linkText("Register")).click();
 	}
 	
-	@Test(priority=1, invocationCount = 10)
+	@Test(priority=1)
 	public void verifyRegisterWithMandatoryDetails() {
 		driver.findElement(By.id("input-firstname")).sendKeys("Selenium");
 		driver.findElement(By.id("input-lastname")).sendKeys("Panda");
@@ -39,7 +41,7 @@ public class RegsiterTest {
 	public void verifyRegisterWithAllDetails() {
 		driver.findElement(By.id("input-firstname")).sendKeys("Selenium");
 		driver.findElement(By.id("input-lastname")).sendKeys("Panda");
-		driver.findElement(By.id("input-email")).sendKeys("seleniumpanda112@gmail.com");
+		driver.findElement(By.id("input-email")).sendKeys(Utils.emailWithDateTimeStamp());
 		driver.findElement(By.id("input-telephone")).sendKeys("9876543210");
 		driver.findElement(By.id("input-password")).sendKeys("Selenium@123");
 		driver.findElement(By.id("input-confirm")).sendKeys("Selenium@123");
@@ -53,7 +55,7 @@ public class RegsiterTest {
 	public void verifyRegisterWithIncorrectConfirmPassword() {
 		driver.findElement(By.id("input-firstname")).sendKeys("Selenium");
 		driver.findElement(By.id("input-lastname")).sendKeys("Panda");
-		driver.findElement(By.id("input-email")).sendKeys("seleniumpanda111@gmail.com");
+		driver.findElement(By.id("input-email")).sendKeys(Utils.emailWithDateTimeStamp());
 		driver.findElement(By.id("input-telephone")).sendKeys("9876543210");
 		driver.findElement(By.id("input-password")).sendKeys("Selenium@123");
 		driver.findElement(By.id("input-confirm")).sendKeys("Selenium@123456");
@@ -85,7 +87,8 @@ public class RegsiterTest {
 
 	@AfterMethod
 	public void tearDown() {
-		//driver.quit();
+		driver.quit();
 	}
 
 }
+

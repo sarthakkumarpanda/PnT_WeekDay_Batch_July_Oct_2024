@@ -3,13 +3,17 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.LoginTest">
+      <class name="com.learning_Automation_Day13_14th_Aug_TestBase.LoginTest">
         <methods>
           <include name="oginWithInvalidEmailValidPassword"/>
+          <include name="oginWithValidEmailInvalidPassword"/>
+          <include name="verifyLoginWithValidCredentials"/>
+          <include name="loginWithInvalidCredentials"/>
           <include name="tearDown"/>
+          <include name="loginWithNoCredentials"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.LoginTest -->
+      </class> <!-- com.learning_Automation_Day13_14th_Aug_TestBase.LoginTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
