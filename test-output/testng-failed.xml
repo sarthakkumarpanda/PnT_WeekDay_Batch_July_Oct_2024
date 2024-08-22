@@ -3,12 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.learning_Automation_Day14_21st_Aug_FileHandling.Topic4_RegisterTest">
+      <class name="com.learning_Automation_Day13_14th_Aug_TestBase.LoginTest">
         <methods>
+          <include name="verifyLoginWithValidCredentials"/>
+          <include name="oginWithValidEmailInvalidPassword"/>
+          <include name="loginWithNoCredentials"/>
+          <include name="oginWithInvalidEmailValidPassword"/>
+          <include name="setup"/>
           <include name="tearDown"/>
-          <include name="registerAccountWithAllDetails"/>
+          <include name="loginWithInvalidCredentials"/>
         </methods>
-      </class> <!-- com.learning_Automation_Day14_21st_Aug_FileHandling.Topic4_RegisterTest -->
+      </class> <!-- com.learning_Automation_Day13_14th_Aug_TestBase.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
