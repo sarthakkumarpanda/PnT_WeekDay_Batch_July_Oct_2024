@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>7/0/5</td>
+<td>Tests passed/Failed/Skipped:</td><td>9/3/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Aug 14 21:54:30 EDT 2024</td>
+<td>Started on:</td><td>Wed Aug 28 22:01:57 EDT 2024</td>
 </tr>
-<tr><td>Total time:</td><td>50 seconds (50301 ms)</td>
+<tr><td>Total time:</td><td>76 seconds (76199 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -68,110 +68,128 @@ function toggleAllBoxes() {
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
 <table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.learning_Automation_Day13_14th_Aug_TestBase.LoginTest.setup()'><b>setup</b><br>Test class: com.learning_Automation_Day13_14th_Aug_TestBase.LoginTest</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null
-	at com.learning_Automation_Day13_14th_Aug_TestBase.TestBase.initializeBrowserAndOpenApplication(TestBase.java:39)
-	at com.learning_Automation_Day13_14th_Aug_TestBase.LoginTest.setup(LoginTest.java:20)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace631717345", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace631717345'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null
-	at com.learning_Automation_Day13_14th_Aug_TestBase.TestBase.initializeBrowserAndOpenApplication(TestBase.java:39)
-	at com.learning_Automation_Day13_14th_Aug_TestBase.LoginTest.setup(LoginTest.java:20)
+<td title='com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.LoginTest.loginWithInvalidCredentials()'><b>loginWithInvalidCredentials</b><br>Test class: com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.LoginTest</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [Warning: No match for E-Mail Address and/or Password.] but found [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]
+	at com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.LoginTest.loginWithInvalidCredentials(LoginTest.java:56)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1609754699", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1609754699'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [Warning: No match for E-Mail Address and/or Password.] but found [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.LoginTest.loginWithInvalidCredentials(LoginTest.java:56)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>0</td>
-<td>com.learning_Automation_Day13_14th_Aug_TestBase.LoginTest@73e22a3d</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
+<td>1</td>
+<td>com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.LoginTest@55cb6996</td></tr>
 <tr>
-<td title='com.learning_Automation_Day13_14th_Aug_TestBase.LoginTest.setup()'><b>setup</b><br>Test class: com.learning_Automation_Day13_14th_Aug_TestBase.LoginTest</td>
-<td></td>
-<td>-1723686905</td>
-<td>com.learning_Automation_Day13_14th_Aug_TestBase.LoginTest@73e22a3d</td></tr>
+<td title='com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.LoginTest.oginWithInvalidEmailValidPassword()'><b>oginWithInvalidEmailValidPassword</b><br>Test class: com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.LoginTest</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [Warning: No match for E-Mail Address and/or Password.] but found [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.],
+	expected [Warning: No match for E-Mail Address and/or Password.] but found [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]
+	at com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.LoginTest.oginWithInvalidEmailValidPassword(LoginTest.java:79)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace269257589", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace269257589'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [Warning: No match for E-Mail Address and/or Password.] but found [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.],
+	expected [Warning: No match for E-Mail Address and/or Password.] but found [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.LoginTest.oginWithInvalidEmailValidPassword(LoginTest.java:79)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>1</td>
+<td>com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.LoginTest@55cb6996</td></tr>
 <tr>
-<td title='com.learning_Automation_Day13_14th_Aug_TestBase.LoginTest.tearDown()'><b>tearDown</b><br>Test class: com.learning_Automation_Day13_14th_Aug_TestBase.LoginTest</td>
-<td></td>
-<td>-1723686905</td>
-<td>com.learning_Automation_Day13_14th_Aug_TestBase.LoginTest@73e22a3d</td></tr>
-<tr>
-<td title='com.learning_Automation_Day13_14th_Aug_TestBase.LoginTest.setup()'><b>setup</b><br>Test class: com.learning_Automation_Day13_14th_Aug_TestBase.LoginTest</td>
-<td></td>
-<td>-1723686905</td>
-<td>com.learning_Automation_Day13_14th_Aug_TestBase.LoginTest@73e22a3d</td></tr>
-<tr>
-<td title='com.learning_Automation_Day13_14th_Aug_TestBase.LoginTest.tearDown()'><b>tearDown</b><br>Test class: com.learning_Automation_Day13_14th_Aug_TestBase.LoginTest</td>
-<td></td>
-<td>-1723686905</td>
-<td>com.learning_Automation_Day13_14th_Aug_TestBase.LoginTest@73e22a3d</td></tr>
-<tr>
-<td title='com.learning_Automation_Day13_14th_Aug_TestBase.LoginTest.tearDown()'><b>tearDown</b><br>Test class: com.learning_Automation_Day13_14th_Aug_TestBase.LoginTest</td>
-<td></td>
-<td>-1723686905</td>
-<td>com.learning_Automation_Day13_14th_Aug_TestBase.LoginTest@73e22a3d</td></tr>
-<tr>
-<td title='com.learning_Automation_Day13_14th_Aug_TestBase.LoginTest.tearDown()'><b>tearDown</b><br>Test class: com.learning_Automation_Day13_14th_Aug_TestBase.LoginTest</td>
-<td></td>
-<td>-1723686905</td>
-<td>com.learning_Automation_Day13_14th_Aug_TestBase.LoginTest@73e22a3d</td></tr>
-<tr>
-<td title='com.learning_Automation_Day13_14th_Aug_TestBase.LoginTest.setup()'><b>setup</b><br>Test class: com.learning_Automation_Day13_14th_Aug_TestBase.LoginTest</td>
-<td></td>
-<td>-1723686905</td>
-<td>com.learning_Automation_Day13_14th_Aug_TestBase.LoginTest@73e22a3d</td></tr>
-<tr>
-<td title='com.learning_Automation_Day13_14th_Aug_TestBase.LoginTest.setup()'><b>setup</b><br>Test class: com.learning_Automation_Day13_14th_Aug_TestBase.LoginTest</td>
-<td></td>
-<td>-1723686905</td>
-<td>com.learning_Automation_Day13_14th_Aug_TestBase.LoginTest@73e22a3d</td></tr>
-<tr>
-<td title='com.learning_Automation_Day13_14th_Aug_TestBase.LoginTest.tearDown()'><b>tearDown</b><br>Test class: com.learning_Automation_Day13_14th_Aug_TestBase.LoginTest</td>
-<td></td>
-<td>-1723686905</td>
-<td>com.learning_Automation_Day13_14th_Aug_TestBase.LoginTest@73e22a3d</td></tr>
+<td title='com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.LoginTest.oginWithValidEmailInvalidPassword()'><b>oginWithValidEmailInvalidPassword</b><br>Test class: com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.LoginTest</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [Warning: No match for E-Mail Address and/or Password.] but found [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]
+	at com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.LoginTest.oginWithValidEmailInvalidPassword(LoginTest.java:67)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace906370291", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace906370291'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [Warning: No match for E-Mail Address and/or Password.] but found [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.LoginTest.oginWithValidEmailInvalidPassword(LoginTest.java:67)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>1</td>
+<td>com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.LoginTest@55cb6996</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -181,273 +199,50 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.learning_Automation_Day13_14th_Aug_TestBase.RegsiterTest.verifyRegisterWithMandatoryDetails()'><b>verifyRegisterWithMandatoryDetails</b><br>Test class: com.learning_Automation_Day13_14th_Aug_TestBase.RegsiterTest</td>
+<td title='com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.LoginTest.loginWithNoCredentials()'><b>loginWithNoCredentials</b><br>Test class: com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.LoginTest@55cb6996</td></tr>
+<tr>
+<td title='com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.LoginTest.loginWithValidCredentials()'><b>loginWithValidCredentials</b><br>Test class: com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.LoginTest</td>
 <td></td>
 <td>1</td>
-<td>com.learning_Automation_Day13_14th_Aug_TestBase.RegsiterTest@6d3a388c</td></tr>
+<td>com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.LoginTest@55cb6996</td></tr>
 <tr>
-<td title='com.learning_Automation_Day13_14th_Aug_TestBase.SearchProductTest.verifySearchWithValidProduct()'><b>verifySearchWithValidProduct</b><br>Test class: com.learning_Automation_Day13_14th_Aug_TestBase.SearchProductTest</td>
-<td></td>
-<td>0</td>
-<td>com.learning_Automation_Day13_14th_Aug_TestBase.SearchProductTest@47faa49c</td></tr>
-<tr>
-<td title='com.learning_Automation_Day13_14th_Aug_TestBase.SearchProductTest.verifySearchWithInvalidProduct()'><b>verifySearchWithInvalidProduct</b><br>Test class: com.learning_Automation_Day13_14th_Aug_TestBase.SearchProductTest</td>
-<td></td>
-<td>0</td>
-<td>com.learning_Automation_Day13_14th_Aug_TestBase.SearchProductTest@47faa49c</td></tr>
-<tr>
-<td title='com.learning_Automation_Day13_14th_Aug_TestBase.RegsiterTest.verifyRegisterWithNoDetails()'><b>verifyRegisterWithNoDetails</b><br>Test class: com.learning_Automation_Day13_14th_Aug_TestBase.RegsiterTest</td>
-<td></td>
-<td>0</td>
-<td>com.learning_Automation_Day13_14th_Aug_TestBase.RegsiterTest@6d3a388c</td></tr>
-<tr>
-<td title='com.learning_Automation_Day13_14th_Aug_TestBase.RegsiterTest.verifyRegisterWithIncorrectConfirmPassword()'><b>verifyRegisterWithIncorrectConfirmPassword</b><br>Test class: com.learning_Automation_Day13_14th_Aug_TestBase.RegsiterTest</td>
+<td title='com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.RegisterTest.verifyRegisterWithAllDetails()'><b>verifyRegisterWithAllDetails</b><br>Test class: com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.RegisterTest</td>
 <td></td>
 <td>1</td>
-<td>com.learning_Automation_Day13_14th_Aug_TestBase.RegsiterTest@6d3a388c</td></tr>
+<td>com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.RegisterTest@1807e3f6</td></tr>
 <tr>
-<td title='com.learning_Automation_Day13_14th_Aug_TestBase.RegsiterTest.verifyRegisterWithAllDetails()'><b>verifyRegisterWithAllDetails</b><br>Test class: com.learning_Automation_Day13_14th_Aug_TestBase.RegsiterTest</td>
+<td title='com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.RegisterTest.verifyRegisterWithIncorrectConfirmPassword()'><b>verifyRegisterWithIncorrectConfirmPassword</b><br>Test class: com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.RegisterTest</td>
+<td></td>
+<td>2</td>
+<td>com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.RegisterTest@1807e3f6</td></tr>
+<tr>
+<td title='com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.RegisterTest.verifyRegisterWithMandatoryDetails()'><b>verifyRegisterWithMandatoryDetails</b><br>Test class: com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.RegisterTest</td>
 <td></td>
 <td>1</td>
-<td>com.learning_Automation_Day13_14th_Aug_TestBase.RegsiterTest@6d3a388c</td></tr>
+<td>com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.RegisterTest@1807e3f6</td></tr>
 <tr>
-<td title='com.learning_Automation_Day13_14th_Aug_TestBase.SearchProductTest.verifySearchWithNoProduct()'><b>verifySearchWithNoProduct</b><br>Test class: com.learning_Automation_Day13_14th_Aug_TestBase.SearchProductTest</td>
+<td title='com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.RegisterTest.verifyRegisterWithNoDetails()'><b>verifyRegisterWithNoDetails</b><br>Test class: com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.RegisterTest</td>
 <td></td>
 <td>0</td>
-<td>com.learning_Automation_Day13_14th_Aug_TestBase.SearchProductTest@47faa49c</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
+<td>com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.RegisterTest@1807e3f6</td></tr>
 <tr>
-<td title='com.learning_Automation_Day13_14th_Aug_TestBase.LoginTest.loginWithInvalidCredentials()'><b>loginWithInvalidCredentials</b><br>Test class: com.learning_Automation_Day13_14th_Aug_TestBase.LoginTest</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null
-	at com.learning_Automation_Day13_14th_Aug_TestBase.TestBase.initializeBrowserAndOpenApplication(TestBase.java:39)
-	at com.learning_Automation_Day13_14th_Aug_TestBase.LoginTest.setup(LoginTest.java:20)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2060037930", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2060037930'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null
-	at com.learning_Automation_Day13_14th_Aug_TestBase.TestBase.initializeBrowserAndOpenApplication(TestBase.java:39)
-	at com.learning_Automation_Day13_14th_Aug_TestBase.LoginTest.setup(LoginTest.java:20)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
+<td title='com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.SearchProductTest.verifySearchWithInvalidProduct()'><b>verifySearchWithInvalidProduct</b><br>Test class: com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.SearchProductTest</td>
+<td></td>
 <td>0</td>
-<td>com.learning_Automation_Day13_14th_Aug_TestBase.LoginTest@73e22a3d</td></tr>
+<td>com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.SearchProductTest@480d3575</td></tr>
 <tr>
-<td title='com.learning_Automation_Day13_14th_Aug_TestBase.LoginTest.verifyLoginWithValidCredentials()'><b>verifyLoginWithValidCredentials</b><br>Test class: com.learning_Automation_Day13_14th_Aug_TestBase.LoginTest</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null
-	at com.learning_Automation_Day13_14th_Aug_TestBase.TestBase.initializeBrowserAndOpenApplication(TestBase.java:39)
-	at com.learning_Automation_Day13_14th_Aug_TestBase.LoginTest.setup(LoginTest.java:20)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace697145861", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace697145861'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null
-	at com.learning_Automation_Day13_14th_Aug_TestBase.TestBase.initializeBrowserAndOpenApplication(TestBase.java:39)
-	at com.learning_Automation_Day13_14th_Aug_TestBase.LoginTest.setup(LoginTest.java:20)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
+<td title='com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.SearchProductTest.verifySearchWithNoProduct()'><b>verifySearchWithNoProduct</b><br>Test class: com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.SearchProductTest</td>
+<td></td>
 <td>0</td>
-<td>com.learning_Automation_Day13_14th_Aug_TestBase.LoginTest@73e22a3d</td></tr>
+<td>com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.SearchProductTest@480d3575</td></tr>
 <tr>
-<td title='com.learning_Automation_Day13_14th_Aug_TestBase.LoginTest.oginWithValidEmailInvalidPassword()'><b>oginWithValidEmailInvalidPassword</b><br>Test class: com.learning_Automation_Day13_14th_Aug_TestBase.LoginTest</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null
-	at com.learning_Automation_Day13_14th_Aug_TestBase.TestBase.initializeBrowserAndOpenApplication(TestBase.java:39)
-	at com.learning_Automation_Day13_14th_Aug_TestBase.LoginTest.setup(LoginTest.java:20)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1697441364", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1697441364'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null
-	at com.learning_Automation_Day13_14th_Aug_TestBase.TestBase.initializeBrowserAndOpenApplication(TestBase.java:39)
-	at com.learning_Automation_Day13_14th_Aug_TestBase.LoginTest.setup(LoginTest.java:20)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
+<td title='com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.SearchProductTest.verifySearchWithValidProduct()'><b>verifySearchWithValidProduct</b><br>Test class: com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.SearchProductTest</td>
+<td></td>
 <td>0</td>
-<td>com.learning_Automation_Day13_14th_Aug_TestBase.LoginTest@73e22a3d</td></tr>
-<tr>
-<td title='com.learning_Automation_Day13_14th_Aug_TestBase.LoginTest.oginWithInvalidEmailValidPassword()'><b>oginWithInvalidEmailValidPassword</b><br>Test class: com.learning_Automation_Day13_14th_Aug_TestBase.LoginTest</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null
-	at com.learning_Automation_Day13_14th_Aug_TestBase.TestBase.initializeBrowserAndOpenApplication(TestBase.java:39)
-	at com.learning_Automation_Day13_14th_Aug_TestBase.LoginTest.setup(LoginTest.java:20)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace365864880", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace365864880'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null
-	at com.learning_Automation_Day13_14th_Aug_TestBase.TestBase.initializeBrowserAndOpenApplication(TestBase.java:39)
-	at com.learning_Automation_Day13_14th_Aug_TestBase.LoginTest.setup(LoginTest.java:20)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>com.learning_Automation_Day13_14th_Aug_TestBase.LoginTest@73e22a3d</td></tr>
-<tr>
-<td title='com.learning_Automation_Day13_14th_Aug_TestBase.LoginTest.loginWithNoCredentials()'><b>loginWithNoCredentials</b><br>Test class: com.learning_Automation_Day13_14th_Aug_TestBase.LoginTest</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null
-	at com.learning_Automation_Day13_14th_Aug_TestBase.TestBase.initializeBrowserAndOpenApplication(TestBase.java:39)
-	at com.learning_Automation_Day13_14th_Aug_TestBase.LoginTest.setup(LoginTest.java:20)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1188623367", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1188623367'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null
-	at com.learning_Automation_Day13_14th_Aug_TestBase.TestBase.initializeBrowserAndOpenApplication(TestBase.java:39)
-	at com.learning_Automation_Day13_14th_Aug_TestBase.LoginTest.setup(LoginTest.java:20)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>com.learning_Automation_Day13_14th_Aug_TestBase.LoginTest@73e22a3d</td></tr>
+<td>com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.SearchProductTest@480d3575</td></tr>
 </table><p>
 </body>
 </html>

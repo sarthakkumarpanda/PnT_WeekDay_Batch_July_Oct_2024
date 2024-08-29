@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Test(failed)">
+  <test name="Test(failed)">
     <classes>
-      <class name="com.learning_Automation_Day13_14th_Aug_TestBase.LoginTest">
+      <class name="com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.LoginTest">
         <methods>
-          <include name="oginWithInvalidEmailValidPassword"/>
           <include name="oginWithValidEmailInvalidPassword"/>
-          <include name="verifyLoginWithValidCredentials"/>
-          <include name="loginWithInvalidCredentials"/>
-          <include name="tearDown"/>
-          <include name="loginWithNoCredentials"/>
+          <include name="oginWithInvalidEmailValidPassword"/>
           <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="loginWithInvalidCredentials"/>
         </methods>
-      </class> <!-- com.learning_Automation_Day13_14th_Aug_TestBase.LoginTest -->
+      </class> <!-- com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.LoginTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
