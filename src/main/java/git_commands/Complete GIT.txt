@@ -1,0 +1,298 @@
+downgit v  go to Github and create a new repository
+> www.github.com and create your own id() and password(). Validate your credentials
+> Select the free model
+> Create a Repository
+
+Open Google and type Git Download
+Download as per your Operating System
+Configure in environment variable C:\Program Files\Git\bin
+                                  C:\Program Files\Git\cmd
+
+go to cmd and git -version and check if git is properly installed
+
+rm -rf .git [to delete the complete .git hidden folder] - do not use this unless until inevitable
+
+------------------------------------------------------------------------------------------------------------------------------------------
+How to setup Git on macOS:-
+
+Create SSH Key in your Github settings
+
+Settings > DeveloperSettings > Personal access tokens > Tokens(classic) > Click on the link which stays Generate new token (select the Classic)
+Write something in the Note and check on the repo checkbox
+Scroll down and click on Generate token. You need to copy this token. This will be helpful when you are pushing the code to a Github repository for the very first time
+
+
+https://git-scm.com/download/mac
+https://brew.sh/
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew install git
+
+How to install iterm2 and custom shell Z-shell on Mac ?
+go to iterm2.com and download the same in your Mac and install it. Move it to Applications folder
+
+Then we need to install zsh and type the following command below
+brew install zsh zsh-completions
+
+Wait for sometime and let the installation process be over and then type the command 
+chsh ~s /bin/zsh [give your password and make this default]
+
+Then open the link
+https://ohmyz.sh/
+and there you will find a command if you scroll down 
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"        [copy this command in your gitbash]
+
+Now OhMyZsh in your mac. In case it asks for default settings with Y and No just type Y and hit enter
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+Go to the directory where the Project you want to move to Git
+
+git config --global user.name "usernameofyourgithub"
+git config --global user.email "emailidofyourgithub"
+git config user.name
+git config user.email
+
+How to add SSH Key in Windows:-
+
+1. open yout github account
+2. Go to Settings > SSH and GPG Keys > generating SSH Keys(open this hyperlink in a new tab)
+3. Click on the link "Generating a new SSH key and adding it to the ssh-agent"
+4. ssh-keygen -t rsa -b 4096 -C "emailidofyourgithub"
+5. In case it already exists then select y to overwrite
+5. passphrase set up  
+6. eval $(ssh-agent -s)
+7. ssh-add ~/.ssh/id_rsa
+8. Enter the passphrase 
+9. click on the link "Add the SSH key to your GitHub account.
+10. clip < ~/.ssh/id_rsa.pub
+11. Open the SSH and GPG Keys from settings > New SSH Key > Give some name and do Ctrl+V add the key
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Go to the directory where the Project you want to move to Git
+
+git status
+git init
+git status
+
+git add --a [add everything]
+git add -A [can use this also]
+
+git status
+
+git config --list
+
+git commit -m "comment"
+git log
+git remote add origin SSH (make sure you chose SSH when you are using Gitbash)
+git push -u origin master (this command will throw fatal : Could not read from remote repository if SSH key has not been generated. So please generate the SSH key before you use this command)
+==========================
+touch bb
+git add .
+git commit -S -m "second commit"
+git log
+git log --show-signature
+
+=====================================
+
+git add -p
+git reset HEAD~1 (this command will revert to the previous commit)
+git push --force origin master (this command will even update GitHub repo with the previous commit but be very careful using this)
+
+git reset --hard HEAD~1
+other collaborator will do git reset --hard <last commit which was good commit-hash>
+git log
+
+===========================
+Now once code has come in the repository, edit some file and scroll down the page and do commit changes(this button will be present)
+
+Now use the command git log (you will see nothing would have changed)
+Now use the command git pull origin master (this will pull all the changes that have been done)
+Now use command git log and you will see all the changes
+
+
+---------------********---------------------********************-----------------------------
+
+Now let's do some modification in one of the files
+So to see what exact changes we have made
+
+git diff filename
+git add .
+git commit -m "comment"
+git status
+git push -u origin master
+------------------------------------------------------------------------------------------------
+
+Now let me again go and modify something
+
+git diff
+git add .
+git diff --staged index2.txt [this command is to see the changes in the file in the staged stage]
+
+Now let's say the changes you have implemented, is wrong or may be one of your tech leads or Managers or Architect says that it is wrong or something and they want the old file as it was before this commit
+
+git reset filename
+git status
+git checkout filename
+
+
+then you can go and check that the changes which were done have been removed
+
+Now let's say you do modifications in multiple files and again you did some wrong changes then how to get back all the old files in the previous position 
+git checkout .
+git status
+
+git reset HEAD^1
+git reset HEAD~1
+git log
+git checkout       
+-------------------------------------------------------------------------------------
+git log
+git log -p    (this will show latest changes)
+git log -p -3 (this will show 3 latest logs)
+git log --stat (this will tell in brief what all happened in this commit)
+git log --pretty=oneline (this will give the commit in one line)
+git log --pretty=short
+git log --pretty=full
+git log --since=2.days (will give info for last 2 days)
+git log --since=2.weeks (will give info for last 2 weeks)
+git log --since=2.months (will give info for last 2 months)
+
+-------------------------------------------------------------------------------------------------------------
+
+git add . [this will add new and modified changes without deleted]
+git add -A [stages all]
+git add -u [stages modified and deleted, without new]
+git add --a [stages all]
+
+--------------------------------------------------------------------------------------------------
+
+CLONING IN GIT
+For learning purpose make a new folder
+Open GitBash here
+Go to any Github Repository 
+Click on Clone or download button
+Click on Use SSH link and then copy it  
+
+git clone SSHLink foldername
+git clone SSHLink .
+git status
+----------------------------------------------------------------
+
+IGNORING FILES IN GIT
+
+Open GitBash here
+
+touch .gitignore (this makes a blank file)
+ls -la
+notepad .gitignore (this will open a blank notepad file) - here can write the name of the file which you want to ignore
+can also use star *filename which will make sure all the files with that extension will be ignored
+
+git rm --cached FILENAME 
+git config --global core.excludesfile ~/.gitignore_global
+https://gist.github.com/octocat/9257657 - can use this link to learn what more files can be ignored
+
+-----------------------------------------------------------------------------------------------------------
+
+BRANCHING TUTORIAL (Important)
+Default branch is master
+
+git branch
+git branch branchname
+git branch -a  [this command lists branches both in local and remote]
+git checkout branchname
+git branch
+git checkout -b branchname [this command creates a branch and will move to the control to the new branchname]
+git branch
+
+do whatever changes you want to do in your project
+
+git status
+git add .
+git commit -m "comment"
+git push -u origin branchname
+git branch
+git checkout master
+git merge branchname
+git push -u origin master
+git branch
+----------------------------------------------------------------------------------------------
+
+DELETE the Branch
+
+git branch -d branchname (this will only delete from staging)
+
+git branch
+
+git push origin --delete branchname (this will delete the branch from the remote)
+------------------------------------------------------------------------------------------------
+
+HOW TO DO GIT MERGING?
+git branch master
+git merge branchname
+
+git branch -v         (will give details of all the commits in the respective branches)
+git branch --merged    (will list the branches which have been merged)
+git branch --no-merged  (will list the branches which have not been merged)
+-----------------------------------------------------------------------------------------------------------
+
+MERGE CONFLICT
+
+git init
+git status
+git add -A
+git commit -m "First Commit"
+-----------------------------------------------------------------------------------
+Now will open the Rediff.html with Atom and change the title to Change1
+
+git status
+git add .
+git commit -m "Second Commit changed title to Change1"
+--------------------------------------------------------------------------------------
+Now will open the Rediff.html with Atom and change the title to Change2
+
+git status
+git add .
+git commit -m "Third commit changed title to Change2"
+-----------------------------------------------------------------
+Now I will make another branch QA1 and take the control in it
+
+git checkout -b QA1
+git branch
+
+Now will open the Rediff.html with Atom and change the title to Change3
+git status
+git commit -a -m "This is the 4th commit and changed title to Change3"
+----------------------------------------------------------------------------------
+Now will open the Rediff.html with Atom and change the title to Change4
+git status
+git commit -a -m "This is the 5th commit and changed title to Change4"
+------------------------------------------------------------------------------------
+Now will open the Rediff.html with Atom and change the title to Change5
+git status
+git commit -a -m "This is the 6th commit and changed title to Change5"
+-------------------------------------------------------------------------------------
+git checkout master
+Now will open the Rediff.html with Atom and change the title to Change6
+git status
+git commit -a -m "This is the 7th commit and changed title to Change6"
+------------------------------------------------------------------------------------
+git merge QA1
+here the automatic merge failed issue will show up
+Check in Atom and it will ask which one to keep. Choose your desired one.
+Then save the Atom file
+git status
+Now it will tell me that there is un-merged path
+git add .
+git status
+Now it will tell conflicts have been fixed but still merging is pending so have to commit
+git commit -m "Merged QA1 with master"
+git status
+
+
+
+
+
+
+
+
