@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test name="Default test(failed)">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="Test(failed)">
     <classes>
-      <class name="com.learning_Automation_Day20_10th_Sep_MouseActions.Mouse">
+      <class name="com.learning_Automation_Day21_11th_Sep_AutomationPractice.Add2CartTest">
         <methods>
-          <include name="dragAndDropOperation"/>
+          <include name="add2CartSetup"/>
+          <include name="increaseQuantityAndAddToCartButton"/>
+          <include name="closeBrowser"/>
         </methods>
-      </class> <!-- com.learning_Automation_Day20_10th_Sep_MouseActions.Mouse -->
+      </class> <!-- com.learning_Automation_Day21_11th_Sep_AutomationPractice.Add2CartTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

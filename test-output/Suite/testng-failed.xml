@@ -3,15 +3,13 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test name="Test(failed)">
     <classes>
-      <class name="com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.LoginTest">
+      <class name="com.learning_Automation_Day21_11th_Sep_AutomationPractice.Add2CartTest">
         <methods>
-          <include name="oginWithValidEmailInvalidPassword"/>
-          <include name="oginWithInvalidEmailValidPassword"/>
-          <include name="setup"/>
-          <include name="tearDown"/>
-          <include name="loginWithInvalidCredentials"/>
+          <include name="add2CartSetup"/>
+          <include name="increaseQuantityAndAddToCartButton"/>
+          <include name="closeBrowser"/>
         </methods>
-      </class> <!-- com.learning_Automation_Day11_7th_Aug_TestNG_BatchRunning.LoginTest -->
+      </class> <!-- com.learning_Automation_Day21_11th_Sep_AutomationPractice.Add2CartTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
