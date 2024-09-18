@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.learning_Automation_Day21_11th_Sep_AutomationPractice.Add2CartTest">
+      <class name="com.learning_Automation_Day20_10th_Sep_MultipleWebElements.Rediff_FooterLinks">
         <methods>
-          <include name="add2CartSetup"/>
-          <include name="increaseQuantityAndAddToCartButton"/>
-          <include name="closeBrowser"/>
+          <include name="rediffFooterlinks"/>
         </methods>
-      </class> <!-- com.learning_Automation_Day21_11th_Sep_AutomationPractice.Add2CartTest -->
+      </class> <!-- com.learning_Automation_Day20_10th_Sep_MultipleWebElements.Rediff_FooterLinks -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
