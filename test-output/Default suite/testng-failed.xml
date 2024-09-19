@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.learning_Automation_Day20_10th_Sep_MultipleWebElements.Rediff_FooterLinks">
+      <class name="com.learning_Automation_Day23_18th_Sep_CalendarAutomation.Example2_InvalidDate">
         <methods>
-          <include name="rediffFooterlinks"/>
+          <include name="pickTheDate"/>
         </methods>
-      </class> <!-- com.learning_Automation_Day20_10th_Sep_MultipleWebElements.Rediff_FooterLinks -->
+      </class> <!-- com.learning_Automation_Day23_18th_Sep_CalendarAutomation.Example2_InvalidDate -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
